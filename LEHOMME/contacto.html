@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.png">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>L'HOMME | CONTACT</title>
+</head>
+
+<body class="blackBackGround">
+    <header>
+        <section class="logo">
+            <div class="navIcon desktop">
+                <img src="images/navIcon.svg" alt="Navigation Bar">
+            </div>
+            <h1><a href="index.html">L'HOMME</a> </h1>
+        </section>
+        <section class="userLinks desktop">
+            <ul>
+                <li>
+                    <a href=""><img class="icon" src="images/bag.svg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img class="icon" src="images/heart.svg" alt=""></a>
+
+                </li>
+                <li>
+                    <a href=""><img class="icon" src="images/search.svg" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+    </header>
+    <nav>
+        <div class="closeLogo">
+            <img src="images/close.svg" alt="Close Navigation ">
+        </div>
+        <ul class="navBar">
+            <li>
+                <a href="index.html">
+                    HOME
+                </a>
+            </li>
+            <li>
+                <a href="productos.html">
+                    SHOP
+                </a>
+            </li>
+            <li>
+                <a href="contacto.html">
+                    CONTACT US
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="centerTextForm">CONSULTANOS!</h2>
+        <form id="formContact" class="formStyle">
+            <!--en esta sección del formulario se encuentran los campos a completar-->
+            <div class="containerInputs">
+                <input class="typeName" type="text" name="name" value="" placeholder="Nombre (*)" required>
+                <p class="desktop" id="validName"></p>
+                <input class="typeSurname" type="text" name="surname" value="" placeholder="Apellido (*)" required>
+                <p class="desktop" id="validSurname"></p>
+                <input class="typeMail" type="email" name="mail" value="" placeholder="Email (*)" required>
+                <p class="desktop" id="validEmail"></p>
+                <input class="typePrefix" type="number" name="prefix" value="" placeholder="Prefijo" required>
+                <input class="typeNumber" type="number" name="phone" value="" placeholder="Teléfono (*)" required>
+                <p class="desktop" id="validPhone"></p>
+                <textarea placeholder="Motivo de consulta (*)" name="motive" required></textarea>
+                <p class="desktop" id="validTextarea"></p>
+            </div>
+            <!--en esta sección del formulario se encuentra el captcha a realizar-->
+            <p class="textForm">CAPTCHA</p>
+            <div class="containerCaptcha">
+                <p id="number">123</p>
+                <input id="userText" type="text" name="captcha" value="" placeholder="Ingrese el numero." required>
+                <p id="resultCaptcha" class="space"></p>
+                <button id="reload">Actualizar</button>
+                <button id="captcha">Soy humano</button>
+            </div>
+            <!--en esta sección se encuentra un aviso en el caso de completar incorrectamente el formulario-->
+            <p class="textForm" id="notice">Envía tu consulta una vez que hayas realizado correctamente el captcha o la consulta no será válida.
+            </p>
+            <!--button de enviar-->
+            <input id="sendForm" type="submit" value="Enviar" name="sendForm">
+        </form>
+        <p class="messageValidForm">CONSULTA ENVIADA CORRECTAMENTE</p>
+        </div>
+        <footer>
+            <div class="mobile">
+                <section class="socialMedia">
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com/lehommeofficial/" target="_blank">INSTAGRAM</a>
+                        </li>
+                        <li>|</li>
+                        <li>
+                            <a href="https://twitter.com/lhommeofficial " target="_blank">TWITTER</a>
+                        </li>
+                        <li>|</li>
+                        <li><a href="https://www.facebook.com/lehommeofficial/ " target="_blank">FACEBOOK</a></li>
+                    </ul>
+                </section>
+                <section class="aboutUs">
+                    <ul>
+                        <li>FAQ's</li>
+                        <li>
+                            <a href="contacto.html">CONTACTO</a>
+                        </li>
+                        <li>TIENDAS</li>
+                        <li>DEVOLUCIONES</li>
+                        <li>WISHLIST</li>
+                    </ul>
+                </section>
+
+            </div>
+            <div class="desktop ">
+                <section class="moreInfo ">
+                    <div class="infoItem ">
+                        <img src="images/shipping.svg " alt="Envios ">
+                        <p class="moreInfoText ">ENVIOS A TODO EL PAIS</p>
+                        <p>Gratis en compras mayores a $15000</p>
+                    </div>
+                    <div class="infoItem ">
+                        <img src="images/returns.svg " alt="Devolucion de Productos ">
+                        <p class="moreInfoText ">CAMBIOS HASTA 30 DIAS</p>
+                        <p>Primer cambio gratis</p>
+                    </div>
+                    <div class="infoItem ">
+                        <img src="images/creditCard.svg " alt="Pagos disponibles con Tarjeta ">
+                        <p class="moreInfoText ">CUOTAS SIN INTERES</p>
+                        <p>Compra en hasta 12 cuotas!</p>
+
+                    </div>
+                </section>
+                <section class="bottomFooter ">
+                    <div class="about ">
+                        <div class="aboutInfo ">
+                            <p>AYUDA</p>
+                            <ul>
+                                <li>Terminos y Condiciones</li>
+                                <li>Politicas de envios</li>
+                                <li>FAQ</li>
+                                <li>Cambios y Devoluciones</li>
+                            </ul>
+                        </div>
+                        <div class="aboutInfo ">
+                            <p>SERVICIO AL CLIENTE</p>
+                            <ul>
+                                <li><a href="contacto.html ">Contacto</a> </li>
+                                <li>Estado de mi pedido </li>
+                                <li>Lista de Deseos </li>
+                            </ul>
+                        </div>
+                        <div class="aboutInfo ">
+                            <p>NOSOTROS</p>
+                            <ul>
+                                <li>Locales</li>
+                                <li>Nuestra Historia</li>
+                                <li>Compromiso con el ambiente</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="followUs ">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/lehommeofficial/ " target="_blank "><img class="icon " src="images/igLogo.svg " alt="Follow us on Instagram "></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/lhommeofficial " target="_blank "><img class="icon " src="images/twitterLogo.svg " alt="Leave us a tweet "></a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/lehommeofficial/ " target="_blank "><img class="icon " src="images/fbLogo.svg " alt="Like us on Facebook "></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+            </div>
+        </footer>
+        <div class="mobile mobileNavBar ">
+            <ul>
+                <li><img class="icon invertColor" src="images/miCuenta.svg" alt=" "></li>
+                <li id="mobileNavMenu">MENU</li>
+                <li>
+                    <section class="userLinks invertColor ">
+                        <ul>
+                            <li>
+                                <a href=" "><img class="icon " src="images/bag.svg " alt=" "></a>
+                            </li>
+                            <li>
+                                <a href=" "><img class="icon " src="images/heart.svg " alt=" "></a>
+
+                            </li>
+                            <li>
+                                <a href=" "><img class="icon " src="images/search.svg " alt=" "></a>
+                            </li>
+                        </ul>
+                    </section>
+                </li>
+            </ul>
+        </div>
+        <script src="js/header.js"></script>
+        <script src="js/contact.js"></script>
+</body>
+
+</html>
